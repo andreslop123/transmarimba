@@ -1,0 +1,202 @@
+/*Configuracion principal de nuestra pagina web
+
+    Colores:
+
+    primario:#fff;
+    secundario:#342B71;
+    tercero:#453434; 
+    cuarto:#A44808 ;
+    quinto:#75F611;
+    sexto:#080000;
+*/
+.cabecera{
+    background-color: #342B71;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+ .logo{
+    position: fixed;
+    align-self: flex-start;
+ }
+ .img{
+    z-index: 900;
+    margin-top: 8px;
+    margin-left: 20px;
+    box-shadow: inset;
+ }
+ .menu{
+    display: inline-flex;
+    text-align: center;
+    float: right;
+ }
+ .menu > ul{
+    float: right;
+    display: inline-flex;
+    text-decoration: none;
+    right: 2;
+ }
+ .menu > ul > li{
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+ }
+ .menu > ul > li > a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+ }
+ .menu > ul > li > a:hover{
+    color: #75F611;
+    padding: 25px;
+    background-color: #A44808;
+    border-radius: 5px;
+ }
+ .inicio{
+    display: block;
+    position: inherit;
+    width: 100%;
+    height: 450px;
+    background-color: #000;
+    background-image: url("../media/img/carretera.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ .banner{
+    width: 20%;
+    padding: 25px;
+    margin-left: 5%;
+    background-color: rgba(220, 75, 105,0.7);
+ }
+ .tbanner{
+    font-size: 32px;
+    font-family: cursive;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px #342B71;
+ }
+ .pbanner{
+    font-weight: bolder;
+    font-style: italic;
+    font-family: cursive;
+    font-size: 20px;
+    color: #75F611;
+ }
+ .elregistro{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px !important;
+    border-radius: 8px !important;
+    float: right;
+    font-size: 18px;
+ }
+ .empresa{
+    width: 100%;
+    height: 300px;
+    background-color: #fff;
+ }
+ .promo{
+    display: inline-flex;
+    width: 80%;
+    margin-left: 10%;
+ }
+ .promo h4{
+    text-align: center;
+    font-family: italic, cursive;
+    font-size: 22px;
+ }
+ .conocenos{
+    width: 21%;
+    margin: 0, 4px;
+    padding-left: 2%;
+ }
+ .buses{
+    width: 21%;
+    margin: 0, 4px;
+    padding-left: 2%;
+ }
+ .rutas{
+    width: 21%;
+    margin: 0, 4px;
+    padding-left: 2%;
+ }
+ .reserva{
+    width: 21%;
+    margin: 0, 4px;
+    padding-left: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-family: roboto, cursive;
+    background-image: url("../media/img/invitacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ .reserva:hover{
+    transform: rotate(350deg);
+    transform-origin: right bottom 2;
+    font-size: 30px;
+    text-shadow: 2pc 2px #75F611;
+    text-decoration: none;
+ }
+ .reserva a{
+    text-decoration: none;
+    color: #A44808;
+ }
+ .alianza{
+    background-image: url("../media/img/TURISMO.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+ }
+ .alianza h2{
+    color: #A44808;
+    text-shadow: 2px 2px #75F611;
+    font-family: roboto, cursive;
+ }
+ .falianza{
+    width: 28%;
+    float: right;
+    background-color: rgba(73,155,234,0.7);
+    padding: 25px;
+    box-shadow: #75F611 5px 5px 5px 5px;
+    font-family: tahoma, cursive;
+    font-size: 25px;
+    color: #75F611;
+    text-shadow: 2px 3px #A44808;
+ }
+ .coda{
+    display: inline-flex;
+    width: 100%;
+ }
+ .preguntas{
+    font-family: roboto, cursive;
+    width: 50%;
+    height: 400px;
+    color: #A44808;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-left: 10%;
+ }
+ .preguntas span{
+    font-size: 24px;
+    font-weight: bold;
+ }
+ .preguntas li > a{
+    text-decoration-line: none;
+    color: red;
+ }
+ .contacto{
+    flex: left;
+    margin-right: 5%;
+    margin-top: 2%;
+ }
+ a{
+    text-decoration: none;
+ }
+ .pie{
+    text-align: center;
+    color: #A44808;
+ }
